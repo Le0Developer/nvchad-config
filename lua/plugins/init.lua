@@ -29,5 +29,10 @@ return {
     config = function ()
       require "configs.copilot"
     end
+  },
+
+  {
+    "ollykel/v-vim",
+    ft = "vlang"
   }
 }
